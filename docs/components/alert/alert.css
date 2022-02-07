@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 15rem;
+    padding: 1rem;
+    box-shadow: 0 4px 4px darkgray;
+}
+
+.content {
+    margin-left: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+}
+  
+.alert-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+}
+
+.alert {
+    padding: 1rem;
+    text-align: center;
+    width: 20rem;
+    border-radius: 0.5rem;
+}
+  
+.icon {
+    position: relative;
+    top: 0.1rem;
+}
+  
+.al-one {
+    background-color: var(--color-green);
+}
+  
+.al-two {
+    background-color: var(--color-red);
+}
+  
+.al-three {
+    background-color: var(--color-yellow);
+}
+  
+.al-four {
+    background-color: var(--color-grey);
+}
+  
