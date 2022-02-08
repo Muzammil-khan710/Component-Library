@@ -20,9 +20,8 @@ body {
     gap: 2rem;
     padding: 2rem;
     width: 100%;
-    box-shadow: 0 1px 4px darkgray;
+    box-shadow: 0 1px 4px var(--color-dark-grey);
     border-radius: 10px;
-
 }
 
 .home-svg {
@@ -30,5 +29,5 @@ body {
     height: 2rem;
     left: 2rem;
     top: 2rem;
-  }
+}
   
