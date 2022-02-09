@@ -1,0 +1,29 @@
+.avatar-small {
+    border-radius: 50%;
+    height: 3rem;
+}
+  
+.avatar-large {
+    border-radius: 50%;
+    height:7rem
+}
+  
+.avatar-medium {
+    border-radius: 50%;
+    height: 5rem;
+}
+  
+.avatar-small-square {
+    height: 3rem;
+    width: 3rem;
+}
+  
+.avatar-medium-square {
+    height: 5rem;
+    width: 5rem;
+}
+  
+.avatar-large-square {
+    height: 7rem;
+    width: 7rem;
+}

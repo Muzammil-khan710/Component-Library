@@ -1,0 +1,21 @@
+.resp-img {
+    width: 100%;
+    height: auto;
+}
+
+.rnd-img {
+    border-radius: 50%;
+}
+
+.square {
+    height: 10rem;
+    width: 10rem;
+}
+
+  
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
