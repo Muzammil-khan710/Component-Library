@@ -8,3 +8,15 @@
 
     --color-background: #e9f9fe;
 }
+
+.green {
+    background-color: var(--color-green);
+}
+
+.red {
+    background-color: var(--color-red);
+}
+
+.d-grey {
+    background-color: var(--color-dark-grey);
+}

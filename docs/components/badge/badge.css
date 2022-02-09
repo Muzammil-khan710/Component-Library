@@ -1,0 +1,38 @@
+.bdg {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.bdg-sm {
+    height: 12px;
+    width: 12px;
+    top: 2rem;
+    left: 0rem;
+    border: 1px solid white;
+}
+
+.bdg-med {
+    height: 15px;
+    width: 15px;
+    top: 3.5rem;
+    left: 0rem;
+    border: 3px solid white;
+}
+
+.bdg-lg {
+    height: 20px;
+    width: 20px;
+    top: 5rem;
+    left: 0rem;
+    border: 3px solid white;
+}
+
+.bdg-icon {
+    bottom: 1.5rem;
+    left: 1rem;
+}
+
+.bdg-icon-left {
+    bottom: 1.5rem;
+    right: 1rem;
+}
