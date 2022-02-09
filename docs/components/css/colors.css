@@ -1,7 +1,10 @@
 :root {
     --color-red: #f55;
+    --color-light-red:#f8bcbc;
     --color-green: #39ed3e;
+    --color-light-green:#a4f0a4;
     --color-yellow: #ffee56;
+    --color-light-yellow: #ecf7b2;
     --color-grey: #dde7e5;
     --color-dark-blue: #032f3b;
     --color-dark-grey: darkgrey;
@@ -19,4 +22,12 @@
 
 .d-grey {
     background-color: var(--color-dark-grey);
+}
+
+.d-blue {
+    background-color: var(--color-dark-blue);
+}
+
+.yellow {
+    background-color: var(--color-yellow);
 }
