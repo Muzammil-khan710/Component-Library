@@ -8,7 +8,7 @@
     width: 12px;
     top: 2rem;
     left: 0rem;
-    border: 1px solid white;
+    border: 1px solid var(--color-white);
 }
 
 .bdg-med {
@@ -16,7 +16,7 @@
     width: 15px;
     top: 3.5rem;
     left: 0rem;
-    border: 3px solid white;
+    border: 3px solid var(--color-white);
 }
 
 .bdg-lg {
@@ -24,7 +24,7 @@
     width: 1.2rem;
     top: 5rem;
     left: 0rem;
-    border: 3px solid white;
+    border: 3px solid var(--color-white);
 }
 
 .bdg-icon {
