@@ -7,11 +7,19 @@
     color: var(--color-dark-blue);
 }
 
-h1,p {
+h1 {
     text-align: center;
     padding: 1rem;
     margin: 1rem;
     color: var(--color-dark-blue);
+}
+
+h2 {
+    padding: 12px;
+}
+
+p {
+    padding: 8px;
 }
 
 h3 {

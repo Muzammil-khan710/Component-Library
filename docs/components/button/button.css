@@ -1,0 +1,39 @@
+.btn {
+    height: 2rem;
+    width: auto;
+    padding: 0 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.link-btn {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.float-btn {
+    position:fixed;
+    right: 1rem;
+    border: none;
+}
+
+.outline-green {
+    border: 3px solid var(--color-green);
+    background-color: var(--color-light-green);
+}
+
+.outline-red {
+    border: 3px solid var(--color-red);
+    background-color: var(--color-light-red);
+}
+
+.outline-yellow {
+    border: 3px solid var(--color-yellow);
+    background-color: var(--color-light-yellow);
+}
+
+.outline-d-grey {
+    border: 3px solid var(--color-dark-grey);
+    background-color: var(--color-grey);
+}
