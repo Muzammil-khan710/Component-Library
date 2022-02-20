@@ -1,12 +1,11 @@
 .card-img {
-    height: 200px;
+    height: 13rem;
     width: 100%;
     border-radius: 5px 5px 0 0 ;
 }
 
 .card {
     border: 1px solid black;
-    /* max-width: 600px; */
     position: relative;
     border-radius: 5px;
     gap: 1rem;
@@ -57,11 +56,9 @@
 
 .horizontal-card {
     display: flex;
-    max-width: 600px;
 }
 
 .horizontal-card-img {
-    height: 200px;
+    height: 13rem;
     border-radius: 5px 0 0 5px;
-    
 }
