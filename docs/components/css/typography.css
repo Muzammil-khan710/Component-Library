@@ -16,10 +16,12 @@ h1 {
 
 h2 {
     padding: 12px;
+    color: var(--color-dark-blue);
 }
 
 p {
     padding: 8px;
+    color: var(--color-dark-blue);
 }
 
 h3 {
@@ -32,6 +34,11 @@ iframe {
     margin-top: 2rem;
 }
 
-h2 {
+.w-full {
+    width: 100%;
+}
+
+h4 {
     color: var(--color-dark-blue);
+    padding: 8px;
 }
