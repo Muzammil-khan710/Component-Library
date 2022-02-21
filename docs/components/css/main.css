@@ -7,6 +7,7 @@
 @import url('../button/button.css');
 @import url('../cards/cards.css');
 @import url('../input/input.css');
+@import url('../snackbar/snackbar.css');
 
 .container {
     display: flex;
@@ -83,12 +84,11 @@
     padding-bottom: 1rem;
 }
 
-.input-container {
+.input-container, .snackbar-container {
     padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 100%;
     gap: 1rem;
 }

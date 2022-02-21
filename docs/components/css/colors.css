@@ -36,3 +36,7 @@
 .c-red {
     color: var(--color-red);
 }
+
+.c-dblue {
+    color: var(--color-dark-blue);
+}
