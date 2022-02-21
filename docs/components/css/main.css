@@ -84,7 +84,9 @@
     padding-bottom: 1rem;
 }
 
-.input-container, .snackbar-container {
+.input-container,
+.snackbar-container,
+.rating-container {
     padding: 1rem;
     display: flex;
     flex-direction: column;

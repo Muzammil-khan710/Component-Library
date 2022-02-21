@@ -1,6 +1,5 @@
 .snackbar {
     position: relative;
-    /* background-color: var(--color-dark-blue); */
     width: 20rem;
     border: 1px solid;
 }
