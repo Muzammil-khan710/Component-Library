@@ -1,0 +1,25 @@
+.ul-ls {
+    list-style-type: none;
+}
+
+.normal-list {
+    padding: 5px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.stacked-list {
+    padding: 5px;
+    margin: 10px;
+}
+
+.stacked-list-container {
+    border: 1px solid;
+    margin: 1rem;
+    width: 80%;
+}
+
+.normal-list-container {
+    border: 1px solid;
+    margin: 1rem;
+}

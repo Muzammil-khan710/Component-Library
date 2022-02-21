@@ -8,6 +8,7 @@
 @import url('../cards/cards.css');
 @import url('../input/input.css');
 @import url('../snackbar/snackbar.css');
+@import url('../list/list.css');
 
 .container {
     display: flex;
@@ -86,7 +87,8 @@
 
 .input-container,
 .snackbar-container,
-.rating-container {
+.rating-container,
+.list-container {
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -94,4 +96,3 @@
     width: 100%;
     gap: 1rem;
 }
-
