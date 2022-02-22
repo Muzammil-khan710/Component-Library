@@ -53,3 +53,26 @@ _______________
 Here we are having multiple components
 Here is the live [link](https://mk-ui.netlify.app/docs/components/input/input.html)
 Documentation of [input](https://github.com/Muzammil-khan710/Component-Library/tree/dev/docs/components/input)
+
+_______________
+
+## Snackbar
+This is a snackbar. These are used to display small Notifications
+Here is the live [link](https://mk-ui.netlify.app/docs/components/snackbar/snackbar.html)
+Documentation of [snackbar](https://github.com/Muzammil-khan710/Component-Library/tree/dev/docs/components/snackbar)
+
+______________
+
+## List
+We have used two types of list.
+Here is the live [link](https://mk-ui.netlify.app/docs/components/list/list.html)
+Documentation of [list](https://github.com/Muzammil-khan710/Component-Library/tree/dev/docs/components/list)
+
+______________
+
+## Modal
+Modal are used to display important features and blocks background.
+Here is the live [link](https://mk-ui.netlify.app/docs/components/modal/modal.html)
+Documentation of [modal](https://github.com/Muzammil-khan710/Component-Library/tree/dev/docs/components/modal)
+
+
