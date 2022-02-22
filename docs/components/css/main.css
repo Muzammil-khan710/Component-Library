@@ -9,6 +9,7 @@
 @import url('../input/input.css');
 @import url('../snackbar/snackbar.css');
 @import url('../list/list.css');
+@import url('../modal/modal.css');
 
 .container {
     display: flex;
@@ -88,7 +89,8 @@
 .input-container,
 .snackbar-container,
 .rating-container,
-.list-container {
+.list-container,
+.modal-container {
     padding: 1rem;
     display: flex;
     flex-direction: column;
