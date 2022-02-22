@@ -43,6 +43,7 @@
     top: 2px;
     right: 5px;
     color: var(--color-red);
+    padding: 5px;
 }
 
 .card-txt-overlay {
