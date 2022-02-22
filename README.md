@@ -1,7 +1,9 @@
 # Component-Library
  
+ ### [View live](https://mk-ui.netlify.app/styles.css)
+ 
 #### Installation:
-Put this [link](https://mk-ui.netlify.app/styles.css) in your head file
+Put this link in your head file
 `https://mk-ui.netlify.app/styles.css`
 
 ______________
