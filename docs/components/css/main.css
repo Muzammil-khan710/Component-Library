@@ -9,7 +9,7 @@
 @import url('../input/input.css');
 @import url('../snackbar/snackbar.css');
 @import url('../list/list.css');
-@import url('../modal/modal.css');
+@import url('../Rating/rating.css');
 
 .container {
     display: flex;
