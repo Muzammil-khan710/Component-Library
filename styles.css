@@ -30,4 +30,9 @@ body {
     left: 2rem;
     top: 2rem;
 }
-  
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
