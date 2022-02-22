@@ -72,9 +72,9 @@ Documentation of [list](https://github.com/Muzammil-khan710/Component-Library/tr
 
 ______________
 
-## Modal
-Modal are used to display important features and blocks background.
-Here is the live [link](https://mk-ui.netlify.app/docs/components/modal/modal.html) &
-Documentation of [modal](https://github.com/Muzammil-khan710/Component-Library/tree/dev/docs/components/modal)
+## Rating
+A rating is an evaluation or assessment of something, in terms of quality, quantity, or some combination of both ..
+Here is the live [link](https://mk-ui.netlify.app/docs/components/Rating/rating.html) &
+Documentation of [Rating](https://github.com/Muzammil-khan710/Component-Library/tree/dev/docs/components/Rating)
 
 
