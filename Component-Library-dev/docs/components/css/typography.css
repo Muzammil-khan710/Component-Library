@@ -1,0 +1,44 @@
+.t-cntr {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-dark-blue);
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    color: var(--color-dark-blue);
+}
+
+h2 {
+    padding: 12px;
+    color: var(--color-dark-blue);
+}
+
+p {
+    padding: 8px;
+    color: var(--color-dark-blue);
+}
+
+h3 {
+    text-align: center;
+    color: var(--color-dark-blue);
+    margin: 12px;
+}
+
+iframe {
+    margin-top: 2rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+h4 {
+    color: var(--color-dark-blue);
+    padding: 8px;
+}
