@@ -10,6 +10,7 @@
 @import url('../snackbar/snackbar.css');
 @import url('../list/list.css');
 @import url('../Rating/rating.css');
+@import url('../Text-utilities/text-util.css');
 
 .container {
     display: flex;
