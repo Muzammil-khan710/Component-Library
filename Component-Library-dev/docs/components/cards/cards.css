@@ -6,7 +6,6 @@
 
 .card {
     border: 1px solid black;
-    /* max-width: 600px; */
     position: relative;
     border-radius: 5px;
     gap: 1rem;
