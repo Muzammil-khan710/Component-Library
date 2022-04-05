@@ -13,6 +13,7 @@
 @import url('../Text-utilities/text-util.css');
 @import url('../Modal/modal.css');
 @import url('../Navigation/navigation.css');
+@import url('../Grid/grid.css');
 
 .container {
     display: flex;
@@ -93,7 +94,8 @@
 .snackbar-container,
 .rating-container,
 .list-container,
-.navbar-container {
+.navbar-container,
+.grid-container {
     padding: 1rem;
     display: flex;
     flex-direction: column;

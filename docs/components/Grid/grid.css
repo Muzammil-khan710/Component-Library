@@ -1,0 +1,25 @@
+.grid-two-items {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto auto;
+}
+  
+.grid-three-items {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+  
+.grid-child {
+    border-radius: 0.3rem;
+    background-color: var(--color-orange);
+    border: 1px solid var(--color-black);
+    text-align: center;
+    padding: 1rem;
+}
+
+.grid-content-wrapper {
+    border: 1px solid var(--color-black);
+    padding: 1rem;
+}
