@@ -77,24 +77,32 @@ A rating is an evaluation or assessment of something, in terms of quality, quant
 Here is the live [link](https://mk-ui.netlify.app/docs/components/Rating/rating.html) &
 Documentation of [Rating](https://github.com/Muzammil-khan710/Component-Library/tree/dev/docs/components/Rating)
 
+______________
 
 ## Grid
 CSS Grid is a two-dimensional grid system used to work on the layout of UI elements and segments of a webpage. The Grid comprises horizontal and vertical lines to form rows and columns, much like a table.
-Here is the live [link](https://deploy-preview-15--comp-lib-tempdev.netlify.app/docs/component/grid)
+Here is the live [link](https://deploy-preview-15--comp-lib-tempdev.netlify.app/docs/component/grid) &
 Documentation of [Grid](https://github.com/Muzammil-khan710/Component-Library/tree/tempo-dev/docs/components/Grid)
+
+______________
 
 ## Modal
 A modal (also called a modal window or lightbox) is a web page element that displays in front of and deactivates all other page content
-Here is the live [link](https://deploy-preview-13--comp-lib-tempdev.netlify.app/docs/components/modal/modal)
+Here is the live [link](https://deploy-preview-13--comp-lib-tempdev.netlify.app/docs/components/modal/modal) &
 Documentation of [Modal](https://github.com/Muzammil-khan710/Component-Library/tree/tempo-dev/docs/components/Modal)
 
-## Navigation
+______________
 
+## Navigation
 Navigation is used to toggle links as well as pages throughout your app.
-Here is the live [link](https://deploy-preview-14--comp-lib-tempdev.netlify.app/docs/components/navigation/navigation)
+Here is the live [link](https://deploy-preview-14--comp-lib-tempdev.netlify.app/docs/components/navigation/navigation)  & 
 Documentation of [Navigation](https://github.com/Muzammil-khan710/Component-Library/tree/tempo-dev/docs/components/Navigation)
+
+______________
 
 ## Text Utilities
 These contains Text headings, grey text, centered text
-Here is the live [link](https://deploy-preview-12--comp-lib-tempdev.netlify.app/docs/components/text-utilities/text-utilities)
+Here is the live [link](https://deploy-preview-12--comp-lib-tempdev.netlify.app/docs/components/text-utilities/text-utilities) & 
 Documentation of [Text utilities](https://github.com/Muzammil-khan710/Component-Library/tree/tempo-dev/docs/components/Text-utilities)
+
+______________
