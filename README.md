@@ -77,4 +77,7 @@ A rating is an evaluation or assessment of something, in terms of quality, quant
 Here is the live [link](https://mk-ui.netlify.app/docs/components/Rating/rating.html) &
 Documentation of [Rating](https://github.com/Muzammil-khan710/Component-Library/tree/dev/docs/components/Rating)
 
-
+## Grids
+Grid is used for organizing content on the page in both rows and columns..
+Here is the live [link](https://mk-ui.netlify.app/docs/components/grid/grid.html)
+Documentation of [Grids](https://github.com/Muzammil-khan710/Component-Library/tree/dev/docs/components/grid)
