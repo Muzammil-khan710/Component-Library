@@ -49,3 +49,7 @@
 .c-yellow {
     color: var(--color-yellow);
 }
+
+.c-grey {
+    color: var(--color-grey);
+}

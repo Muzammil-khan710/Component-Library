@@ -99,3 +99,9 @@
     width: 100%;
     gap: 1rem;
 }
+
+.typo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

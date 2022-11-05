@@ -1,6 +1,7 @@
 .snackbar {
     position: relative;
     width: 20rem;
+    border-radius: 5px;
     border: 1px solid;
 }
 
