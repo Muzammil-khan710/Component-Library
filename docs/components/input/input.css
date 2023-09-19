@@ -1,0 +1,15 @@
+.input {
+    padding: 1rem;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 5px;
+    border: 2px solid var(--color-dark-blue);
+}
+
+.success-input {
+    border: 2px solid var(--color-green);
+}
+
+.error-input {
+    border: 2px solid var(--color-red);
+}

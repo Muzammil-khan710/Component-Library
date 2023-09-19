@@ -1,0 +1,62 @@
+.t-cntr {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-dark-blue);
+}
+
+iframe {
+    margin-top: 2rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.para-xlg {
+    font-size: 1.8rem;
+}
+
+.para-lg {
+    font-size: 1.5rem;
+}
+
+.para-md {
+    font-size: 1.2rem;
+}
+
+.para-sm {
+    font-size: 1rem;
+}
+
+
+
+.p-1r {
+    padding: 1rem;
+}
+
+.p-4 {
+    padding: 4px;
+}
+
+.m-4 {
+    margin: 4px;
+}
+
+.p-8 {
+    padding: 8px;
+}
+
+.m-8 {
+    margin: 8px;
+}
+
+.m-1r {
+    margin: 1rem;
+}
+
+.fs-bold {
+    font-weight: bold;
+}

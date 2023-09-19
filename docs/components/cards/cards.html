@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>MUI | Cards</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-contents">
+      <a href="/index.html">
+        <img
+          class="home-svg"
+          src="https://api.iconify.design/twemoji:letter-m.svg"
+          alt="home"
+        />
+      </a>
+      <a class="link" href="/index.html">Installation</a>
+      <a class="link view-pc" href="/docs/components/alert/alert.html"
+        >Documentation</a
+      >
+      <div class="dropdown view-mob">
+        <button class="dropbtn link" id="dropdownButton">
+          Documentation
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+            >
+              <path fill="currentColor" d="m12 15l-5-5h10l-5 5Z" />
+            </svg>
+          </span>
+        </button>
+        <div class="dropdown-content">
+          <a class="link" href="../alert/alert.html">Alert</a>
+          <a class="link" href="../avatar/avatar.html">Avatar</a>
+          <a class="link" href="../badge/badge.html">Badges</a>
+          <a class="link" href="../button/button.html">Button</a>
+          <a class="link" href="../cards/cards.html">Cards</a>
+          <a class="link" href="../grid/grid.html">Grid</a>
+          <a class="link" href="../image/image.html">Images</a>
+          <a class="link" href="../input/input.html">Input</a>
+          <a class="link" href="../list/list.html">List</a>
+          <a class="link" href="../Rating/rating.html">Rating</a>
+          <a class="link" href="../snackbar/snackbar.html">Snackbar</a>
+          <a class="link" href="../typography/typography.html">typography</a>
+        </div>
+      </div>
+      <a
+        class="link view-pc"
+        href="https://github.com/Muzammil-khan710/Component-Library"
+        >GitHub</a
+      >
+    </div>
+  </nav>
+
+    <main class="container">
+        <div class="sidebar">
+          <h2 class="c-dblue">Components</h2>
+          <a class="link" href="../alert/alert.html">Alert</a>
+          <a class="link" href="../avatar/avatar.html">Avatar</a>
+          <a class="link" href="../badge/badge.html">Badges</a>
+          <a class="link" href="../button/button.html">Button</a>
+          <a class="link" href="../cards/cards.html">Cards</a>
+          <a class="link" href="../grid/grid.html">Grid</a>
+          <a class="link" href="../image/image.html">Images</a>
+          <a class="link" href="../input/input.html">Input</a>
+          <a class="link" href="../list/list.html">List</a>
+          <a class="link" href="../Rating/rating.html">Rating</a>
+          <a class="link" href="../snackbar/snackbar.html">Snackbar</a>
+          <a class="link" href="../typography/typography.html">typography</a>
+        </div>
+  
+        <div class="card-content">
+
+          <h1 class="w-full t-cntr m-1r p-1r c-dblue">Cards</h1>
+          <h2 class="c-dblue">Standard Card with shadow,dismiss button,text overlay card and badge.</h2>
+
+          <div class="card-container">
+          <div class="card">
+            <img class="card-img" src="/assets/images/image-card.jpg" alt="">
+            <span class="bdg-card bdg-icon red">New</span>
+            <h3 class="c-dblue">Code T-shirt</h3>
+            <h4 class="t-cntr c-dblue">Some other text</h4>
+            <p class="t-cntr">some details about product</p>
+            <div class="card-btn-container">
+              <button class="btn green">Buy</button>
+              <button class="btn outline-red">Add to cart</button>
+              <button class="icon-btn"><img
+                src="https://api.iconify.design/mdi:share.svg"
+                title="share"
+              /></button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img" src="/assets/images/image-card.jpg" alt="">
+            <span class="bdg-card bdg-icon red">New</span>
+            <span class="dismiss-btn"><button class="icon-btn c-red">X</button></span>
+            <h3>Code T-shirt</h3>
+            <h4 class="t-cntr">Some other text</h4>
+            <p class="t-cntr">some details about product</p>
+            <div class="card-btn-container">
+              <button class="btn green">Buy</button>
+              <button class="btn outline-red">Add to cart</button>
+              <button class="icon-btn"><img
+                src="https://api.iconify.design/mdi:share.svg"
+                title="share"
+              /></button>
+            </div>
+          </div>
+
+          <div class="card card-txt-overlay">
+            <img class="card-img" src="/assets/images/image-card.jpg" alt="">
+            <span class="bdg-card bdg-icon red">New</span>
+            <span class="dismiss-btn"><button class="icon-btn c-red">X</button></span>
+            <h3>Code T-shirt</h3>
+            <h2 class="overlay-txt">Out of stock</h2>
+            <h4 class="t-cntr">Some other text</h4>
+            <p class="t-cntr">some details about product</p>
+            <div class="card-btn-container">
+              <button class="btn green">Buy</button>
+              <button class="btn outline-red">Add to cart</button>
+              <button class="icon-btn"><img
+                src="https://api.iconify.design/mdi:share.svg"
+                title="share"
+              /></button>
+            </div>
+          </div>
+
+        </div>
+        <iframe
+          class="view-mob"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=28px&ph=10px&ln=false&fl=1&fm=Hack&fs=11px&lh=134%25&si=false&es=2x&wm=false&code=%252F%252Ffor%2520overlay%2520card%2520%250A%253Cdiv%2520class%253D%2522card%2520card-txt-overlay%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522bdg-card%2520bdg-icon%2520red%2522%253E%250A%2520%2520%2520%2520%2520%2520New%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-btn%2522%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520c-red%2522%253E%250A%2520%2520%2520%2520%2520%2520X%250A%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Ch3%253ECode%2520T-shirt%253C%252Fh3%253E%250A%2520%2520%2520%253Ch2%2520class%253D%2522overlay-txt%2522%253EOut%2520of%2520stock%253C%252Fh2%253E%250A%2520%2520%2520%253Ch4%2520class%253D%2522t-cntr%2522%253ESome%2520other%2520text%253C%252Fh4%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522t-cntr%2522%253E%250A%2520%2520%2520%2509some%2520details%2520about%2520product%250A%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520green%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Buy%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-red%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+          style="width: 349px; height: 557px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <iframe
+        class="view-pc"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=42px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=150%25&si=false&es=2x&wm=false&code=%252F%252Ffor%2520overlay%2520card%2520%250A%253Cdiv%2520class%253D%2522card%2520card-txt-overlay%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522bdg-card%2520bdg-icon%2520red%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-btn%2522%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520c-red%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%253Ch3%253ECode%2520T-shirt%253C%252Fh3%253E%250A%2520%2520%2520%253Ch2%2520class%253D%2522overlay-txt%2522%253EOut%2520of%2520stock%253C%252Fh2%253E%250A%2520%2520%2520%253Ch4%2520class%253D%2522t-cntr%2522%253ESome%2520other%2520text%253C%252Fh4%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522t-cntr%2522%253Esome%2520details%2520about%2520product%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520green%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-red%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%253Cimg%2520src%253D%2522...%2522%252F%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+          style="width: 573px; height: 480px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+
+        <h2 class="c-dblue">Horizontal cards and text only card</h2>
+        <div class="card-container">
+          
+          <div class="card">
+            <h3 class="m-1r">This is text only card</h3>
+            <span class="dismiss-btn"><button class="icon-btn c-red">X</button></span>
+            <h4 class="p-1r">Here you can write some information related to products</h4>
+            <p>Also you can write another information as well</p>
+          </div>
+
+          <div class="card">
+            <div class="horizontal-card">
+            <img class="horizontal-card-img" src="/assets/images/image-card.jpg" alt="">
+            <div class="horizontal-card-contents">
+            <h3 class="m-8">Code T-shirt</h3>
+            <h4 class="t-cntr p-8">Some other text</h4>
+            <p class="t-cntr p-8">some details about product</p>
+            <div class="card-btn-container">
+              <button class="btn green">Buy</button>
+              <button class="btn outline-red">Add to cart</button>
+              <button class="icon-btn"><img
+                src="https://api.iconify.design/mdi:share.svg"
+                title="share"
+              /></button>
+            </div>
+          </div>
+          </div>
+          </div>
+
+        </div>
+
+        <iframe
+          class="view-mob"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=28px&ph=10px&ln=false&fl=1&fm=Hack&fs=11px&lh=134%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522horizontal-card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-contents%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ECode%2520T-shirt%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522t-cntr%2522%253ESome%2520other%2520text%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522t-cntr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509some%2520details%2520about%2520product%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520green%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-red%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%252F%252Ffor%2520text%2520only%2520card%250A%250A%253Cdiv%2520class%253D%2522card%2522%253E%250AYour%2520Content%250A%253C%252Fdiv%253E"
+          style="width: 422px; height: 528px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe> 
+        <iframe
+        class="view-pc"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=42px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=150%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522horizontal-card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-card-contents%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ECode%2520T-shirt%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522t-cntr%2522%253ESome%2520other%2520text%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522t-cntr%2522%253Esome%2520details%2520about%2520product%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520green%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-red%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%253Cimg%2520src%253D%2522...%2522%252F%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%252F%252Ffor%2520text%2520only%2520card%250A%250A%253Cdiv%2520class%253D%2522card%2522%253E%250AYour%2520Content%250A%253C%252Fdiv%253E"
+          style="width: 603px; height: 570px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        </div>
+      </main>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.alert {
+    padding: 1rem;
+    text-align: center;
+    width: 20rem;
+    border-radius: 0.5rem;
+}
+  
+.icon {
+    position: relative;
+    top: 0.1rem;
+}
+  
+.al-one {
+    background-color: var(--color-green);
+}
+  
+.al-two {
+    background-color: var(--color-red);
+}
+  
+.al-three {
+    background-color: var(--color-yellow);
+}
+  
+.al-four {
+    background-color: var(--color-grey);
+}
+  

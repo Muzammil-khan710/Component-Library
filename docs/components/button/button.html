@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>MUI | Buttons</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-contents">
+          <a href="/index.html">
+            <img
+              class="home-svg"
+              src="https://api.iconify.design/twemoji:letter-m.svg"
+              alt="home"
+            />
+          </a>
+          <a class="link" href="/index.html">Installation</a>
+          <a class="link view-pc" href="/docs/components/alert/alert.html"
+            >Documentation</a
+          >
+          <div class="dropdown view-mob">
+            <button class="dropbtn link" id="dropdownButton">
+              Documentation
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                >
+                  <path fill="currentColor" d="m12 15l-5-5h10l-5 5Z" />
+                </svg>
+              </span>
+            </button>
+            <div class="dropdown-content">
+              <a class="link" href="../alert/alert.html">Alert</a>
+              <a class="link" href="../avatar/avatar.html">Avatar</a>
+              <a class="link" href="../badge/badge.html">Badges</a>
+              <a class="link" href="../button/button.html">Button</a>
+              <a class="link" href="../cards/cards.html">Cards</a>
+              <a class="link" href="../grid/grid.html">Grid</a>
+              <a class="link" href="../image/image.html">Images</a>
+              <a class="link" href="../input/input.html">Input</a>
+              <a class="link" href="../list/list.html">List</a>
+              <a class="link" href="../Rating/rating.html">Rating</a>
+              <a class="link" href="../snackbar/snackbar.html">Snackbar</a>
+              <a class="link" href="../typography/typography.html">typography</a>
+            </div>
+          </div>
+          <a
+            class="link view-pc"
+            href="https://github.com/Muzammil-khan710/Component-Library"
+            >GitHub</a
+          >
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="sidebar">
+          <h2 class="c-dblue">Components</h2>
+          <a class="link" href="../alert/alert.html">Alert</a>
+          <a class="link" href="../avatar/avatar.html">Avatar</a>
+          <a class="link" href="../badge/badge.html">Badges</a>
+          <a class="link" href="../button/button.html">Button</a>
+          <a class="link" href="../cards/cards.html">Cards</a>
+          <a class="link" href="../grid/grid.html">Grid</a>
+          <a class="link" href="../image/image.html">Images</a>
+          <a class="link" href="../input/input.html">Input</a>
+          <a class="link" href="../list/list.html">List</a>
+          <a class="link" href="../Rating/rating.html">Rating</a>
+          <a class="link" href="../snackbar/snackbar.html">Snackbar</a>
+          <a class="link" href="../typography/typography.html">typography</a>
+        </div>
+        <div class="content">
+            <h1 class="t-cntr c-dblue p-1r">Buttons</h1>
+            <h2 class="c-dblue p-8">Primary Buttons</h2>
+            <div class="btn-container">
+                <button class="btn green">These</button>
+                <button class="btn red">Are</button>
+                <button class="btn yellow">Primary</button>
+                <button class="btn d-grey">Buttons</button>
+            </div>
+
+            <h2 class="c-dblue p-8">Outlined Buttons</h2>
+            <div class="btn-container">
+                <button class="btn outline-green">These</button>
+                <button class="btn outline-red">Are</button>
+                <button class="btn outline-yellow">Outlined</button>
+                <button class="btn outline-d-grey">Buttons</button>
+            </div>
+
+            <h2 class="c-dblue p-8">Icon Button, Link button & Floating Button</h2>
+            <div class="btn-container">
+                <button class="btn green"><img src="/assets/images/cart.svg" alt=""></button>
+                <button class="btn link-btn">Link button</button>
+                <button class="float-btn green"><img src="/assets/images/arrow.svg" alt=""></button>
+            </div>
+            <iframe
+                class="view-mob"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=28px&ph=10px&ln=false&fl=1&fm=Hack&fs=11px&lh=134%25&si=false&es=2x&wm=false&code=%252F%252FSolid%2520button%250A%253Cbutton%2520class%253D%2522btn%2520green%2522%253E%250A%2509These%250A%253C%252Fbutton%253E%250A%250A%252F%252FOutlined%2520button%250A%253Cbutton%2520class%253D%2522btn%2520outline-red%2522%253E%250A%2509Are%250A%253C%252Fbutton%253E%250A%250A%252F%252FIcon%2520button%250A%253Cbutton%2520class%253D%2522btn%2520green%2522%253E%250A%2509%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%252F%253E%250A%253C%252Fbutton%253E"
+                style="width: 270px; height: 336px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <iframe
+            class="view-pc"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=42px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=150%25&si=false&es=2x&wm=false&code=%252F%252FSolid%2520button%250A%253Cbutton%2520class%253D%2522btn%2520green%2522%253EThese%253C%252Fbutton%253E%250A%250A%252F%252FOutlined%2520button%250A%253Cbutton%2520class%253D%2522btn%2520outline-red%2522%253EAre%253C%252Fbutton%253E%250A%250A%252F%252FIcon%2520button%250A%253Cbutton%2520class%253D%2522btn%2520green%2522%253E%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%252F%253E%253C%252Fbutton%253E"
+                style="width: 570px; height: 290px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </main>
+
+</body>
+</html>
